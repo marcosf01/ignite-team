@@ -2,7 +2,7 @@ import { TextInput } from "react-native";
 import styled from "styled-components/native";
 
 export const Container = styled(TextInput)`
-    width: 100%;
+    flex: 1;
     height: 56px;
     background-color: ${({ theme }) => theme.COLORS.GRAY_700};
 
